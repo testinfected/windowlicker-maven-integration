@@ -22,6 +22,33 @@
         <connection>scm:git:git://github.com/testinfected/windowlicker-maven-integration.git</connection>
     </scm>
 
+	<developers>
+		<developer>
+			<id>nat.pryce</id>
+			<name>Nat Pryce</name>
+			<roles>
+				<role>Developer</role>
+			</roles>
+		</developer>
+		<developer>
+			<id>smgfreeman</id>
+			<name>Steve Freeman</name>
+			<roles>
+				<role>Developer</role>
+			</roles>
+		</developer>
+	</developers>
+
+	<contributors>
+		<contributor>
+			<name>Vincent Tencé</name>
+			<email>vtence.at.gmail.com</email>
+			<roles>
+				<role>Maven build</role>
+			</roles>
+		</contributor>
+	</contributors>
+
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
