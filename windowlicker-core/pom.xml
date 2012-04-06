@@ -1,0 +1,38 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>com.googlecode.windowlicker</groupId>
+        <artifactId>windowlicker-parent</artifactId>
+        <version>r268</version>
+        <relativePath>..</relativePath>
+    </parent>
+
+    <groupId>com.googlecode.windowlicker</groupId>
+    <artifactId>windowlicker-core</artifactId>
+
+    <name>Windowlicker Core</name>
+
+    <description>
+        This is the core API of windowlicker.
+    </description>
+
+    <url>http://code.google.com/p/windowlicker/</url>
+
+    <scm>
+        <url>http://code.google.com/p/windowlicker/source/browse/</url>
+        <connection>scm:svn:http://windowlicker.googlecode.com/svn/trunk</connection>
+    </scm>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.hamcrest</groupId>
+            <artifactId>hamcrest-all</artifactId>
+        </dependency>
+    </dependencies>
+
+    <properties>
+        <module.name>core</module.name>
+    </properties>
+</project>
